@@ -1,0 +1,3 @@
+SELECT q.id_pendaftar, nim_nip_nik, nama, p.`status` FROM 
+    tb_peminjaman p JOIN tb_pendaftar q ON p.id_pendaftar=q.id_pendaftar
+    WHERE nim_nip_nik='31718237823'
